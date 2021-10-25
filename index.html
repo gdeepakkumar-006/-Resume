@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> 
+
+<title>Resume</title>
+<style>
+    .head{
+        display: flex;
+        /* border: darkblue 2px solid; */
+        font-family: 'Times New Roman', Times, serif;
+        background-color: lavender;
+       
+       
+    }
+    .head1{
+       padding-top: 40px;
+       padding-left: 40px; 
+       font-weight: 500;
+    }
+    /* h1{
+        font-weight: 700;
+        font-size: 50px;
+    }
+    h2{
+        font-size: 40px;
+        font-weight: 500;
+    }
+    h4{
+        font-size: 35px;
+    } */
+    .head2{
+        position: relative;
+        left: 4%;         
+        padding-top: 100px;
+    }
+    #heading{
+      padding-left: 40px;
+      /* text-decoration: underline; */
+      padding-top: 6px;
+       font-family: 'Times New Roman', Times, serif;
+      /* border: black 1px solid; */
+      background-color: lavender;
+      
+
+    }
+    #contact{
+        font-size: 25px;
+    }
+    #content{
+        padding-left: 100px;
+        padding-right: 100px;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        padding-top: 5px;
+
+    }
+     td,th{
+         border: 1px solid lavender;
+         text-align:center;
+         padding: 4px;
+     }
+     th{
+         background-color:lavender;
+     }
+     table{
+         width: 100%;
+         border-collapse: collapse;
+      } 
+     .skills{
+         padding-top: 25px;
+         padding-bottom: 25px;
+     }
+     .skillset{
+         display: flex;
+     }
+     #set{
+         display: flex;
+         flex-direction: column;
+     }
+     #title{
+         font-weight: 700;
+         padding-left: 40px;
+         text-decoration: underline;
+         
+     }
+     #project-title{
+         font-weight: normal;
+         text-transform: uppercase;
+     }
+     @media screen and (max-width:480px)
+      {
+          h1{
+              font-size: 15px;
+          }
+      }
+      @media screen and (max-width:480px)
+      {
+          table{
+              width: 80%;
+              margin: auto;
+           }
+      }
+      @media screen and (max-width:480px)
+      {
+         #table{
+            padding-top: 15px;
+          }
+      }
+      @media screen and (max-width:480px)
+      {
+          th{
+              font-size: 13px;
+          }
+      }
+      @media screen and (max-width:480px)
+      {
+          td{
+              font-size: 13px;
+          }
+      }
+      @media screen and (max-width:480px)
+      {
+          #project-title{
+              font-size: 15px;
+          }
+      }
+      @media screen and (max-width:480px)
+      {
+         #title{
+              font-size: 20px;
+              padding-left: 10px;
+          }
+      }
+      @media screen and (max-width:480px)
+      {
+          h2{
+              font-size: 15px;
+          }
+      }
+      @media screen and (max-width:480px)
+      {
+          h4{
+              font-size: 12px;
+          }
+      }
+      @media screen and (max-width:480px)
+      {
+          h5{
+              font-size: 15px;
+          }
+      }
+      @media screen and (max-width:480px)
+      {
+          .head1{
+              padding-left: 10px;
+              padding-top: 20px;
+          }
+      }
+      @media screen and (max-width:480px)
+      {
+          .head2{
+              left: 1%;
+              padding-top: 70px;
+          }
+      }
+      @media screen and (max-width:480px)
+      {
+          #heading{
+              padding-left: 10px;
+              font-size: 20px;
+           }
+      }
+      @media screen and (max-width:480px)
+      {
+         #content{
+              font-size: 14px;
+              padding-left: 10px;
+              padding-right: 10px;
+          }
+      }
+      @media screen and (max-width:480px)
+      {
+          #contact{
+              font-size: 12px;
+          }
+      }
+      @media screen and (max-width:480px)
+      {
+          #skills{
+              font-size: 12px;
+              padding-left: 20px;
+          }
+      }
+      /* @media only screen and (min-width:768px)
+      {
+          #contact{
+              font-size: 21px;
+          }
+      }
+      @media only screen and (min-width:768px)
+      {
+          .head2{
+               padding-top: 100px;
+          }
+      }
+      @media only screen and (min-width:768px)
+      {
+          #skills{
+               padding-right: 44px;
+               place-content: space-between;
+               font-size: 20px;
+          }
+      } */
+      
+     
+</style>
+</head>
+<body style="overflow-x: hidden; font-family: 'Times New Roman', Times, serif;" >
+    <section>
+        <header class="head">
+            <div class="head1 col-lg-6">
+                <h1>Deepakkumar Govindaraj</h1>
+                <h2>Full Stack Developer</h2>
+                <h4>2/245 pannikkirupu street<br>erukkur (po),sirkali(tk)<br>Mayiladuthurai (dt)-609108<br>Tamil Nadu.</h4>
+            </div>
+            <div class="head2 col-lg-6">
+                <h5 id="contact">Phone-No:8838622078</h5>
+                <h5 id="contact">E-mail:<a href="mailto">gdeepakkumar006@gmail.com</a></h5>
+                <h5 id="contact">Linkedln:<a href="https://www.linkedin.com/in/deepak-kumar-g-7b1730213" target="_blank">https://www.linkedin.com/in/deepak-kumar-g-7b1730213</a></h5>
+                <h5 id="contact">Portfolio:<a href="https://gdeepakkumar-006.github.io/first_project" target="_blank">https://gdeepakkumar-006.github.io/first_project</a></h5>
+            </div>
+        </header>
+        <!-- <hr style="border:black 2px solid;"> -->
+        <div class="objective" style="padding-top: 30px;">
+            <h3 id="heading">OBJECTIVE:</h3>
+            <p id="content"><span style="padding-left: 100px;"> Aspiring a suitable response entry level position in an organization that provide
+                me an opportunity to prove myself and polish</span> myskills through challenging
+                tasks to improve myself as well as for the organization.
+                </p>
+        </div>
+        <div>
+            <h3 class="academic" id="heading">ACADEMIC BACKGROUND:</h3>
+            <div style="padding-top: 20px;" id="content"> 
+            <table id="tab">
+                <tr>
+                    <th>Qualification</th>
+                    <th>Institution</th>
+                    <th>CGPA/Percentage</th>
+                    <th>Year of Passing</th>
+                </tr>
+                <tr>
+                    <td>BE (EEE)</td>
+                    <td>Government College Of Engineering,<br>Thanjavur</td>
+                    <td>8.12</td>
+                    <td>2021</td>
+                </tr>
+                <tr>
+                    <td>HSC</td>
+                    <td>BEST Matriculation School,<br>Sirkali</td>
+                    <td>89.5%</td>
+                    <td>2017</td>
+                </tr>
+                <tr>
+                    <td>SSLC</td>
+                    <td>BEST Matriculation School,<br>Sirkali</td>
+                    <td>94.5%</td>
+                    <td>2015</td>
+                </tr>
+            </table>
+             </div>
+        </div>
+        <div class="skills">
+            <h3 id="heading">skills</h3>
+            <div id="content" class="skillset">
+            <div id="set" class="col-lg-4"> 
+                <span id="skills">&#8827; HTML</span>
+                <span id="skills">&#8827; CSS</span>
+                <span id="skills">&#8827; Bootstrap</span>
+                <span id="skills">&#8827; JavaScript</span>
+                <span id="skills">&#8827; SELENIUM</span>
+             </div> 
+             <div id="set" class="col-lg-4">  
+                <span id="skills">&#8827; Angular</span>
+                <span id="skills">&#8827; Jquery</span>
+                <span id="skills">&#8827; Java</span>
+                <span id="skills">&#8827; MySql</span>
+            </div> 
+            <div id="set" class="col-lg-4"> 
+                <span id="skills">&#8827; Git</span>
+                <span id="skills">&#8827; PHP</span>
+                <span id="skills">&#8827; MS office</span>
+                <span id="skills">&#8827; OS(Windows, linux, unix)</span>
+                
+            </div>
+            </div>
+        </div>
+        <div class="project">
+            <h3 id="heading">PROJECT</h3>
+             <h4 id="title">Title : <span id="project-title"> IOT Based ANTI poaching ALARM system for Trees in forest.</span></h4>
+             <h4 id="title">Objective : </h4>
+             <p id="content">&bull; Our Forests are shrinking and amount of trees are reduced which results in Global Warming etc. </p>
+             <p id="content">&bull; Currently there is no system or any medium to detect illegal logging and cutting trees.</p>
+             <p id="content">&bull; In order to prevent such cause, we have built up a framework which can be utilized to reduce deforestation</p>
+             <p id="content">&bull; We have designed this framework which would help to prevent the cutting of tress i.e. TO PROTECT NATURE.</p>
+             <h4 id="title">TOOL&PROGRAMS USED : </h4>
+             <p id="content">&bull; Embedded C Programming Microcontroller, Piezoelectric sensors.</p>
+        </div>
+        <div class="strength"></div>
+        <h3 id="heading">STRENGTH</h3>
+        <p id="content">&bull; Attentive listening and effective oral communication skills.</p>
+        <p id="content">&bull; Great at Problem Solving. Involved in Team sport activities where gained good leadership skills.</p>
+        <p id="content">&bull; Confidence,sincerity, punctuality, hard working.</p>
+        <p id="content">&bull; Willing to learn and adapt to new opportunities and challenges.</p>
+    </section>
+</body>
+</html>
